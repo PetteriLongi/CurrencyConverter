@@ -1,0 +1,25 @@
+/* Sans-serif font and base size for the whole UI.
+   Children inherit these from .root, so they don't need their own rules. */
+.root {
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 14px;
+    -fx-background-color: #1a1a1a;  /* dark gray; use #000000 for pure black */
+}
+
+/* Larger, bold title in the top bar */
+.title-label {
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-text-fill: #ff69b4;
+}
+
+.button {
+    -fx-background-color: #ffff33;
+}
+
+.button:hover {
+    -fx-background-color: #f5f000;
+}
